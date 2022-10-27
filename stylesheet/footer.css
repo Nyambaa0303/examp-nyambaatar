@@ -1,0 +1,17 @@
+.footer-bottom{
+    display: flex;
+    margin-top: 60px;
+ 
+}
+.footer-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    margin: 0;
+}
+.footer{
+
+    text-align: left;
+}

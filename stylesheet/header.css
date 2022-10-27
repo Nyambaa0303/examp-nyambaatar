@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu ul li{
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    
+}

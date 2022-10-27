@@ -1,0 +1,45 @@
+.zfold-img{
+    background: url("../images/image\ 1.png");
+    width: 100%;
+    height: 90vh;
+}
+.zfold h1{
+
+    display: flex;
+    
+}
+.banner-left-side{
+    background: url("../images/image\ 5.png");
+    height: 486px;
+    width: 50%;
+}
+.banner-right-side{
+    background: url("../images/image\ 6.png");
+    height: 486px;
+    width: 50%;
+text-align: right;
+}
+.banner{
+    width: 100%;
+   display: flex;
+}
+
+/* cards section */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px grey;
+   
+}
+.card{
+    width: 25%;
+}
+.card:hover{
+    opacity: 0.8s;
+    transition: 0.8s;
+    background-color: blue;
+}
+.card{
+    transition: 0.8s;
+}
