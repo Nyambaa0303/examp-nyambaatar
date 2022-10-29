@@ -1,20 +1,37 @@
 .zfold-img{
     background: url("../images/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 115vh;
 }
-.zfold h1{
+.zfold-text{
 
     display: flex;
-    
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+    height: 115vh;
 }
+
+
+
+
+
+
+
+
 .banner-left-side{
     background: url("../images/image\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 486px;
     width: 50%;
 }
 .banner-right-side{
     background: url("../images/image\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 486px;
     width: 50%;
 text-align: right;
@@ -34,12 +51,13 @@ text-align: right;
 }
 .card{
     width: 25%;
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .card:hover{
     opacity: 0.8s;
     transition: 0.8s;
     background-color: blue;
-}
-.card{
-    transition: 0.8s;
 }
